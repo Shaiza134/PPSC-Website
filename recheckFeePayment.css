@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d7424;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0d7424;
+}
+  
+.container {
+    width: 350px;
+    margin: 15px auto;
+    background-color: #f0f4f0;
+    padding: 33px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.important-note {
+    color: red;
+}
+
+.container h2 {
+    color: #0d7424;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .forgot-token {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .forgot-token a {
+    color: #0d7424;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #0d7424;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0d7424;
+  }
+  
+  
+footer {
+    background-color: #0d7424;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

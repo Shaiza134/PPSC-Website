@@ -1,0 +1,256 @@
+/* General styling for top bar */
+.top-bar {
+    background-color: #0d7424;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .top-bar a {
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+   
+   
+  }
+  /* styles.css */
+.social-icons a i {
+    font-size: 50px; /* Adjust the size as needed */
+}
+
+  
+  /* Navbar styling */
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .navbar-brand span {
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+  }
+  
+  .navbar-brand span:first-child {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Navbar item hover effects */
+  .navbar-nav .nav-link {
+    position: relative;
+    color: #333;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #0d7424;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0d7424;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: #333;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #0d7424;
+    color: white;
+  }
+  
+  /* Form styling */
+  .form-inline .form-control {
+    border-radius: 0;
+  }
+  
+  .form-inline .btn-outline-success {
+    border-radius: 0;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .form-inline .btn-outline-success:hover {
+    background-color: #0d7424;
+    color: white;
+    border-color: #0d7424;
+  }
+  
+  /* carousal */
+  .carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    position: relative;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .carousel-caption h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color:  #060e08;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-caption ul,
+  .carousel-caption p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color:  #0d7424;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-caption a {
+    color:  #0d7424;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .carousel-caption a:hover {
+    color: #100f0f;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+  .carousel-indicators button {
+    background-color:  #0d7424;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ffc107;
+  }
+
+  
+/* services--------------------------------------------------------*/
+
+#services{
+   background-color: #fff;
+    color: #fff;
+ padding: 30px 0;
+
+ }
+ .sub-title {
+    color: rgb(12, 9, 9);
+  }
+
+.services-list{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 40px;
+margin-top: 50px;
+
+ }
+ .services-list div{ 
+    background: #00abf0;
+    background-image:url(https://www.worldanvil.com/uploads/images/8eee6ce1336622aeb3744cdbfb38f71b.png);
+     padding: 40px; 
+     font-size: 13px; 
+     font-weight: 300;
+      border-right: 10px;
+       transition: background .5s,transform 0.5s;;
+ }
+
+ .services-list div i{ 
+    font-size: 50px; 
+    margin-bottom: 30px; 
+}
+
+ .services-list div h2{
+    font-size: 30px; 
+    font-weight: 500;
+     margin-bottom: 15px; 
+    }
+ 
+ .services-list div a{
+     text-decoration: none;
+      color: #fff;
+       font-size: 12px;
+        margin-top: 20px;
+ 
+ display: inline-block;
+ }
+
+ .services-list div:hover{
+
+    transform: translateY(-10px);
+ }
+
+ html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #0d7424;
+    color: white;
+    padding: 30px 0;
+    margin: 0; /* Add this line */
+    width: 100%; /* Ensure the footer spans full width */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+footer {
+  background-color: #0d7424;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print Application</title>
+  <link rel="stylesheet" href="printApplication.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>PUNJAB PUBLIC SERVICE COMMISSION</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Results</a></li>
+                    <li><a href="#">Information Desk</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">Complaints</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <div class="container">
+    <h2 style="color: #0d7424;">Print Application</h2>
+    <form action="#">
+      <div class="form-group">
+        <label for="cnic">CNIC Number:
+        <input type="text" id="cnic" name="cnic" required> </label>
+      </div>
+      <div class="form-group">
+        <label for="application-number">Application Number:
+        <input type="text" id="application-number" name="application-number" required> </label>
+      </div>
+      <div class="form-group">
+        <label for="edit-token">Edit Token Number:
+        <input type="text" id="edit-token" name="edit-token" required> </label>
+      </div>
+      <p>This Token number has already been sent to your email provided in the application form. If you did not receive token number in your email inbox check Spam / Junk folder in your email account.</p>
+      <div class="forgot-token">
+        <a href="#">Forgot / Not Received Token No, Click Here</a>
+      </div>
+      <button type="submit">Proceed</button>
+    </form>
+  </div>
+  <footer>
+    <p>© 2024, Directorate of Information Technology - PPSC</p>
+    <div class="footer-links">
+        <a href="#">Twitter</a>
+        <a href="#">Youtube</a>
+        <a href="#">Staff Only</a>
+        <a href="#">Sitemap</a>
+    </div>
+</footer>
+</body>
+</html>

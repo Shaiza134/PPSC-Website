@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Application</title>
+    <link rel="stylesheet" href="editApplication.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>PUNJAB PUBLIC SERVICE COMMISSION</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Results</a></li>
+                    <li><a href="#">Information Desk</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">Complaints</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="edit-application">
+            <h2>EDIT APPLICATION (AFTER SUBMISSION)</h2>
+            <p class="important-note"><strong>IMPORTANT NOTE REGARDING SUBMISSION OF INCOMPLETE APPLICATION</strong></p>
+            <p>You can only edit your application if your application has been submitted successfully (After the completion). If your application has not yet been submitted, please follow the following steps to submit your application:</p>
+            <ol>
+                <li>Visit the PPSC Website and click the "Apply Online" button from the home page.</li>
+                <li>Select your post, read the instructions and enter your CNIC Number.</li>
+                <li>Fill out the remaining information as required by the system and submit your application.</li>
+            </ol>
+            <p>If your application has been submitted successfully and you have received the Application Number and Token Number for your post, enter your CNIC Number, Application Number and Token number below to edit your application.</p>
+            <form id="edit-application-form">
+                <label for="cnic-number">CNIC Number:</label>
+                <input type="text" id="cnic-number" name="cnic-number" required>
+                
+                <label for="application-number">Application Number:</label>
+                <input type="text" id="application-number" name="application-number" required>
+                
+                <label for="edit-token-number">Edit Token Number:</label>
+                <input type="text" id="edit-token-number" name="edit-token-number" required>
+                
+                <p>This Token number has already been sent to your email provided in the application form. If you did not receive token number in your email inbox check Spam / Junk folder in your email account.</p>
+                
+                <div class="links">
+                    <a href="#">Forgot / Not Received Token No, Click Here</a>
+                    <a href="#">Forgotten Application Number, Click Here</a>
+                </div>
+                
+                <button type="submit">Proceed</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024, Directorate of Information Technology - PPSC</p>
+        <div class="footer-links">
+            <a href="#">Twitter</a>
+            <a href="#">Youtube</a>
+            <a href="#">Staff Only</a>
+            <a href="#">Sitemap</a>
+        </div>
+    </footer>
+    <script src="editApplication.js"></script>
+</body>
+</html>
